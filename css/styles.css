@@ -1,0 +1,62 @@
+:root{
+    --c-brand:#FD9222;
+    --c-primary: #111;
+    --c-primary-light:#fff;
+    --c-background:#1E1823;
+    --c-background-light:#fafafa;
+}
+
+.logo {
+    color: var(--c-primary);
+}
+
+.nav-link {
+    color: var(--c-primary);
+}
+
+.nav-link:hover {
+    color: var(--c-brand);
+}
+
+.hero-section{
+    background-color: var(--c-background);/*replace with image*/
+}
+
+.hero-title{
+    color: var(--c-primary-light);
+}
+
+.button-primary{
+    color: var(--c-primary-light);
+    background-color: var(--c-brand);;
+    cursor: pointer;
+    border: none;
+    padding: 14px 40px;
+    border-radius: 100px;
+}
+
+.button-primary:hover{
+    background-color: #FCF1E0;
+    color: FD9222;
+    
+}
+
+.button-secondary{
+  color:var(--color-primary-light);
+  border: 1px solid var(--c-primary-light);
+  padding: 14px 40px;
+ border-radius: 100px;
+}
+
+.button-secondary:hover{
+color: var(--color-brand);;
+border-color: var(--c-brand);;
+}
+.hero-scroll{
+    color: var(--c-primary-light);
+}
+
+.hero-scroll:hover{
+    color:var(--c-brand);;
+}
+
