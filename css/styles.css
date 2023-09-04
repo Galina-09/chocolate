@@ -1,62 +1,84 @@
-:root{
-    --c-brand:#FD9222;
-    --c-primary: #111;
-    --c-primary-light:#fff;
-    --c-background:#1E1823;
-    --c-background-light:#fafafa;
+:root {
+  --c-brand: #fd9222;
+  --c-primary: #111;
+  --c-primary-light: #fff;
+  --c-background: #1e1823;
+  --c-background-light: #fafafa;
+}
+
+body {
+  color: var(--c-primary);
+  font-family: "Montserrat", sans-serif;
 }
 
 .logo {
-    color: var(--c-primary);
+  color: var(--c-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  font-style: italic;
 }
 
 .nav-link {
-    color: var(--c-primary);
+  color: var(--c-primary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.28px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-    color: var(--c-brand);
+  color: var(--c-brand);
 }
 
-.hero-section{
-    background-color: var(--c-background);/*replace with image*/
+.hero-section {
+  background-color: var(--c-background); /*replace with image*/
 }
 
-.hero-title{
-    color: var(--c-primary-light);
+.hero-title {
+  color: var(--c-primary-light);
 }
 
-.button-primary{
-    color: var(--c-primary-light);
-    background-color: var(--c-brand);;
-    cursor: pointer;
-    border: none;
-    padding: 14px 40px;
-    border-radius: 100px;
+.button-primary {
+  color: var(--c-primary-light);
+  background-color: var(--c-brand);
+  cursor: pointer;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 100px;
 }
 
-.button-primary:hover{
-    background-color: #FCF1E0;
-    color: FD9222;
-    
+.button-primary:hover {
+  background-color: #fcf1e0;
+  color: FD9222;
 }
 
-.button-secondary{
-  color:var(--color-primary-light);
+.button-secondary {
+  color: var(--color-primary-light);
   border: 1px solid var(--c-primary-light);
   padding: 14px 40px;
- border-radius: 100px;
+  border-radius: 100px;
 }
 
-.button-secondary:hover{
-color: var(--color-brand);;
-border-color: var(--c-brand);;
+.button-secondary:hover {
+  color: var(--color-brand);
+  border-color: var(--c-brand);
 }
-.hero-scroll{
-    color: var(--c-primary-light);
-}
-
-.hero-scroll:hover{
-    color:var(--c-brand);;
+.hero-scroll {
+  color: var(--c-primary-light);
 }
 
+.hero-scroll:hover {
+  color: var(--c-brand);
+}
+
+.text-class {
+  border: 4px solid var(--color-brand);
+}
